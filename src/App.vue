@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
+import Banner from './components/ui/Banner.vue';
+import Header from './components/layout/Header.vue';
+import Services from './components/sections/Services.vue';
 </script>
 
 <template>
   <Header />
+  <Banner />
+  <Services />
   <main id="content">
     <RouterView />
   </main>

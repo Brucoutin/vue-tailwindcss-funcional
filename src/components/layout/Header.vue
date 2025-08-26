@@ -2,10 +2,12 @@
   <header>
     <TopBar />
     <MainHeader />
+    
   </header>
 </template>
 
 <script setup lang="ts">
-import TopBar from './TopBar.vue'
-import MainHeader from './MainHeader.vue'
+import TopBar from '../layout/TopBar.vue'
+import MainHeader from '../layout/MainHeader.vue'
+
 </script>
