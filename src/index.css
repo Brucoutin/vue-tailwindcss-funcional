@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+
+@theme {
+
+  --color-vermelho: RGBA(235, 41, 57);
+  --color-azul: RGBA(8, 113, 185);
+  --color-cinza: RGBA(52, 58, 64);
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('./assets/styles/fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('./assets/styles/fonts/AvenirNextLTPro-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('./assets/styles/fonts/AvenirNextLTPro-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonte-principal {
+  font-family: 'AvenirNextLTPro';
+}

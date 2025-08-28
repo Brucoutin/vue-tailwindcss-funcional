@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200 text-gray-700 py-2">
+  <div class="bg-cinza text-white py-2 hidden md:flex">
     <div class="container mx-auto flex justify-between items-center text-xs px-4">
       <div class="flex items-center space-x-4">
         <a href="#content" class="hover:underline">Ir para o conteúdo</a>
