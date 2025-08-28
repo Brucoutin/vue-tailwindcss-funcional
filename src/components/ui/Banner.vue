@@ -7,29 +7,13 @@
         h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px]
       "
     >
-     
-      <button
-        @click="prevImage"
-        class="absolute left-4 bg-white text-blue-600 rounded-full w-8 h-8 flex items-center justify-center hover:bg-blue-100 z-10"
-        aria-label="Anterior"
-      >
-        ‹
-      </button>
-
       <img
         :src="images[currentIndex]"
         alt="Banner"
         class="w-full h-full object-cover"
       />
       <!-- class="w-full h-full object-contain sm:object-cover"-->
-      
-      <button
-        @click="nextImage"
-        class="absolute right-4 bg-white text-blue-600 rounded-full w-8 h-8 flex items-center justify-center hover:bg-blue-100 z-10"
-        aria-label="Próximo"
-      >
-        ›
-      </button>
+       
       <div class="absolute bottom-4 flex space-x-2 z-10">
         <button
           v-for="(image, index) in images"
