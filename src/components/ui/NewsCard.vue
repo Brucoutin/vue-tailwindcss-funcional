@@ -4,14 +4,14 @@
     
     <div class="p-4">
       <div class=" flex items-center justify-between text-gray-500 text-sm mb-2">
-        <span class="font-bold  bg-azul text-white px-2 py-1 rounded-2xl">{{ tag }}</span>
+        <span class="font-bold fonte-principal  bg-azul text-white px-2 py-1 rounded-2xl">{{ tag }}</span>
         <span>{{ date }}</span>
       </div>
 
-      <h3 class="text-xl font-semibold text-gray-800 mb-2 transition-colors duration-200 group-hover:text-azul">{{ title }}</h3>
+      <h3 class="text-xl fonte-principal font-semibold text-gray-800 mb-2 transition-colors duration-200 group-hover:text-azul">{{ title }}</h3>
       <p class="text-gray-600 mb-4">{{ description }}</p>
 
-      <a :href="link" class="bg-white text-azul font-semibold flex items-center w-fit border-1 border-gray-300 rounded-lg px-4 py-2 transition-colors duration-200 hover:bg-azul hover:text-white">
+      <a :href="link" class="bg-white fonte-principal text-azul font-semibold flex items-center w-fit border-1 border-gray-300 rounded-lg px-4 py-2 transition-colors duration-200 hover:bg-azul hover:text-white">
         Leia Mais 
         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 transition-transform transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />

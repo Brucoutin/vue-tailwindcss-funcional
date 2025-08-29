@@ -1,7 +1,7 @@
 <template>
   <div class="p-8 mt-[20px]">
-    <h2 class="text-3xl font-bold text-center text-vermelho mb-2">Serviços para Você</h2>
-    <p class="text-center text-gray-600 mb-8">
+    <h2 class="text-3xl fonte-principal font-bold text-center text-vermelho mb-2">Serviços para você</h2>
+    <p class="text-center fonte-principal text-gray-600 mb-8">
       Acesse os principais serviços do DETRAN PA de forma digital e presencial.
     </p>
 
@@ -15,7 +15,7 @@
       >
         <button
            :href="card.url"
-              class="w-full border border-gray-300 rounded-lg py-2 flex items-center justify-center gap-2 text-azul hover:bg-azul hover:text-white transition font-bold"
+              class="w-full border border-gray-300 rounded-lg py-2 flex items-center justify-center gap-2 fonte-principal text-azul hover:bg-azul hover:text-white transition font-bold"
         >
           Acessar Serviço
           <span class="font-bold">→</span>

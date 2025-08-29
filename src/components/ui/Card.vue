@@ -6,9 +6,9 @@
       <div v-if="icon" class="bg-azul text-white p-3 rounded-lg text-xl">
         <FontAwesomeIcon :icon="icon" />
       </div>
-      <h3 v-if="title" class="text-lg text-vermelho font-semibold">{{ title }}</h3>
+      <h3 v-if="title" class="text-lg fonte-principal text-vermelho font-semibold">{{ title }}</h3>
     </div>
-    <p v-if="description" class="text-gray-600 flex-1 mb-4">
+    <p v-if="description" class="text-gray-600 fonte-principal flex-1 mb-4">
       {{ description }}
     </p>
     <slot />

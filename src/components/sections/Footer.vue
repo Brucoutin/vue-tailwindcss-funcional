@@ -7,48 +7,48 @@
             <img src="../../assets/images/logo_detran_min.png" alt="Logo DETRAN PA" class="w-80" />
           </div>
        <!--  <h4 class="font-bold text-lg mb-4">DETRAN PA</h4> -->  
-          <p class="text-sm">
+          <p class="text-sm fonte-principal">
             Departamento de Trânsito do Estado do Pará
           </p>
-          <p>
+          <p class="text-sm fonte-principal">
              ROD AUGUSTO MONTENEGRO KM/03 S/N
           </p>
-          <p>
-           BAIRRO: NOVA MARAMBAIA 
+          <p class="text-sm fonte-principal">
+           BAIRRO: NOVA MARAMBAIA
           </p>
-          <p>
+          <p class="text-sm fonte-principal">
             CEP: 66.630-505
           </p>
-          <p>
+          <p class="text-sm fonte-principal">
              CNPJ: 04.822.060/0001-40
           </p>
         </div>
 
         <div>
-          <h4 class="font-bold text-lg text-vermelho mb-4">Serviços</h4>
+          <h4 class="font-bold fonte-principal text-lg text-vermelho mb-4">Serviços</h4>
           <ul class="space-y-2 text-sm">
             <li v-for="link in services" :key="link.text">
-              <a :href="link.url" class="hover:underline">{{ link.text }}</a>
+              <a :href="link.url" class="hover:underline fonte-principal">{{ link.text }}</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h4 class="font-bold text-lg text-vermelho mb-4">Informações</h4>
+          <h4 class="font-bold text-lg fonte-principal text-vermelho mb-4">Informações</h4>
           <ul class="space-y-2 text-sm">
             <li v-for="link in info" :key="link.text">
-              <a :href="link.url" class="hover:underline">{{ link.text }}</a>
+              <a :href="link.url" class="hover:underline fonte-principal">{{ link.text }}</a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h4 class="font-bold text-lg text-vermelho mb-4">Contato</h4>
+          <h4 class="font-bold fonte-principal text-lg text-vermelho mb-4">Contato</h4>
           <div class="space-y-2 text-sm">
-            <p>ATENDIMENTO AO PÚBLICO DAS 9H ÀS 15H DE SEGUNDA A SEXTA</p>
-            <p>ATENDIMENTO 154 POR TELEFONE</p>
-            <p>Ouvidoria: 0800-123-4567</p>
-            <p>Email: atendimento@detran.pa.gov.br</p>
+            <p class="fonte-principal">ATENDIMENTO AO PÚBLICO DAS 9H ÀS 15H DE SEGUNDA A SEXTA</p>
+            <p class="fonte-principal">ATENDIMENTO 154 POR TELEFONE</p>
+            <p class="fonte-principal">Ouvidoria: 0800-123-4567</p>
+            <p class="fonte-principal">Email: atendimento@detran.pa.gov.br</p>
             <p>Horário: 8h às 17h</p>
           </div>
         </div>
@@ -56,7 +56,7 @@
 
       <hr class="border-vermelho mb-8" />
 
-      <div class="text-center text-sm">
+      <div class="text-center fonte-principal text-sm">
         <p>© 2025 DETRAN PA - Todos os direitos reservados</p>
         <p>Desenvolvido pelo Governo do Estado do Pará</p>
       </div>
